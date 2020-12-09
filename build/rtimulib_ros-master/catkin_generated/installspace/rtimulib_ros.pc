@@ -1,0 +1,8 @@
+prefix=/home/uav/catkin_px4imu/install
+
+Name: rtimulib_ros
+Description: Description of rtimulib_ros
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib -lrtimulib_ros
+Requires: roscpp sensor_msgs
